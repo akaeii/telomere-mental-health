@@ -1,0 +1,24 @@
+SEED = 42
+N_FOLDS = 10
+SPW = 1.56
+
+~9/14/25 12:16 PM
+Number of finished trials: 100
+Best trial:
+  Value (MCC): 0.6232894432683505
+  Params:
+    booster: dart
+    lambda: 2.8195213479923985e-08
+    alpha: 0.02486533452859966
+    subsample: 0.5533196987827685
+    colsample_bytree: 0.9113378528712757
+    max_depth: 8
+    min_child_weight: 2
+    eta: 0.8148192666270336
+    gamma: 1.045513263401719e-08
+    grow_policy: lossguide
+    sample_type: uniform
+    normalize_type: tree
+    rate_drop: 5.2701248847129466e-08
+    skip_drop: 0.010045671387957453
+  Avg. number of estimators: 23
